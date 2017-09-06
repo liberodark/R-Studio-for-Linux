@@ -1,6 +1,6 @@
 # Maintainer: liberodark
 
-pkgname=r-studio
+pkgname=r-studio-for-linux
 pkgver=4.2.2901
 pkgrel=1
 pkgdesc="Undelete and data recovery software"
