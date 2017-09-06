@@ -11,7 +11,7 @@ Download Repo
 
 $ git clone https://github.com/liberodark/R-Studio-for-Linux
 
-cd R-Studio
+cd R-Studio-for-Linux
 ```
 ```
 Download Software
