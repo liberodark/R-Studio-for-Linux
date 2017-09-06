@@ -7,17 +7,25 @@ For Make a Build :
 
 In Terminal
 ```
+Create Folder
+
 $ mkdir rstudio
 
 $ cd rstudio
 
+Download Repo
+
 $ git clone git@github.com:liberodark/r-studio.git
 
-wget http://www.r-studio.com/downloads/RStudio4_x64.deb
+Download Software
+
+$ wget http://www.r-studio.com/downloads/RStudio4_x64.deb
 
 Check MD5
 
 $ md5sum RStudio4_x64.deb
+
+Run Build pkg.tar.xz
 
 $ makepkg
 ```
