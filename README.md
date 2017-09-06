@@ -6,7 +6,7 @@ Link : http://www.r-studio.com/data_recovery_linux/Download.shtml
 For Make a Build :
 
 In Terminal
-
+```
 $ mkdir rstudio
 
 $ cd rstudio
@@ -20,3 +20,4 @@ Check MD5
 $ md5sum RStudio4_x64.deb
 
 $ makepkg
+```
