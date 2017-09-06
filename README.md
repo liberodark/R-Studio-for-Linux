@@ -7,16 +7,11 @@ For Make a Build :
 
 In Terminal
 ```
-Create Folder
-
-$ mkdir rstudio
-
-$ cd rstudio
-```
-```
 Download Repo
 
-$ git clone git@github.com:liberodark/r-studio.git
+$ git clone https://github.com/liberodark/R-Studio
+
+cd R-Studio
 ```
 ```
 Download Software
