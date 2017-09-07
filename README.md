@@ -19,9 +19,9 @@ Download Software
 $ wget http://www.r-studio.com/downloads/RStudio4_x64.deb
 ```
 ```
-Check MD5
+Check SHA512
 
-$ md5sum RStudio4_x64.deb
+$ sha512sum RStudio4_x64.deb
 ```
 ```
 Run Build pkg.tar.xz
