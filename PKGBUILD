@@ -4,11 +4,10 @@ pkgname=r-studio-for-linux
 pkgver=4.2.2901
 pkgrel=1
 pkgdesc="Undelete and data recovery software"
-arch=('i686' 'x86_64')
+arch=('x86_64')
 url="http://www.r-tt.com/data_recovery_linux/"
 license=('custom')
 depends=('xdg-utils')
-source_i686=("http://www.r-studio.com/downloads/RStudio4_i386.deb")
 source_x86_64=("http://www.r-studio.com/downloads/RStudio4_x64.deb")
 source=($pkgname.desktop
         $pkgname.png)
@@ -24,7 +23,6 @@ package() {
   install -vDm644 $srcdir/$pkgname.png $pkgdir/usr/share/pixmaps/$pkgname.png
 }
 
-md5sums=('023626f715a2581768dac0c6de07ebae'
-         '21f1baf671cd9c49c740d92b506203f9')
-md5sums_i686=('9b2d7fba8fd201a7f3236706b5e7843f')
-md5sums_x86_64=('6bbb7c66414e0593bae528d4985a03c0')
+sha512sums=('3e574174bace6fa952320fe14ab3e3897eea8a01203c98db8aaf4efc3beec0dbd6fa3bb810944fcc7f6b8dd9e6eb54e1572c4c1aa9db8b7cbcc5042afa850438'
+         '16a3c7e30096066b3ab1640f32c421424bfdefdb2859526d0f03dd5e173bc61450ca8371225fe7491135967ffe7c08b9c92b6d5b39bdf7a8999c85b6d7789c4a')
+sha512sums_x86_64=('352fa0225e05d648b83b01b7efcfa9888c7630013b5e6b05441a1f31298a913ede0da5f59307cfa6137a1ab5e5481f0640a69fbce93bbcc1a7b943b3a2d94c9f')
