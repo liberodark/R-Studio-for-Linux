@@ -1,19 +1,19 @@
 # Maintainer: liberodark
 
-pkgname=r-studio-for-linux
-pkgver=4.2.2901
+pkgname=r-studio-for-linux-bin
+pkgver=4.7.3481
 pkgrel=1
-pkgdesc="Undelete and data recovery software"
+pkgdesc="Undelete and data recovery software (non free version)"
 arch=('x86_64')
 url="http://www.r-tt.com/data_recovery_linux/"
 license=('custom')
 depends=('xdg-utils')
-source_x86_64=("http://www.r-studio.com/downloads/RStudio4_x64.deb")
+source_x86_64=("https://www.r-studio.com/downloads/RStudio4_x64.deb")
 source=($pkgname.desktop
         $pkgname.png)
-sha512sums=('3e574174bace6fa952320fe14ab3e3897eea8a01203c98db8aaf4efc3beec0dbd6fa3bb810944fcc7f6b8dd9e6eb54e1572c4c1aa9db8b7cbcc5042afa850438'
+sha512sums=('9899ef8b18fbba2c06c97bb726c456392747304a4301605ea9b67ac6e5c6bf47cdc4b6fe89732b1f701c8146616cf79abc34aff9cbfb479b7e83dd3783f40109'
          '16a3c7e30096066b3ab1640f32c421424bfdefdb2859526d0f03dd5e173bc61450ca8371225fe7491135967ffe7c08b9c92b6d5b39bdf7a8999c85b6d7789c4a')
-sha512sums_x86_64=('352fa0225e05d648b83b01b7efcfa9888c7630013b5e6b05441a1f31298a913ede0da5f59307cfa6137a1ab5e5481f0640a69fbce93bbcc1a7b943b3a2d94c9f')
+sha512sums_x86_64=('e250a6bc526c998e8d3f6f7a2981149098f2ed6b2c9c30a7c95a640659f51b46004d19b09159d6289678127be53c0279eab5016fe0c18fc18581ce1963c00d92')
         
 package() {
   cd $srcdir
